@@ -2,9 +2,10 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&family=Sevillana&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
 .container{
     background-color:bisque;
