@@ -206,7 +206,7 @@ input{
 
 /* --------------cookware page-------------------- */
 .category {
-    padding: 1rem;
+    padding: 2rem 1.5rem;
 }
 .category .topic h3{
     color: var(---headcolor);
