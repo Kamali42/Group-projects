@@ -213,6 +213,7 @@ input{
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
 }
 .category .topic p{
     color: var(---subtopiccolor);
@@ -220,7 +221,7 @@ input{
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
 }
-.container .box-container {
+.container-1 .box-container {
     display: flex;
     justify-content: center;
     align-items: center;
