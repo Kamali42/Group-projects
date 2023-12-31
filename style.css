@@ -1,0 +1,218 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#f8eeaf;
+    --box-color:#2B3499;
+    --text-color:#1F1717;
+    --border-color:#EAECCC;
+    --background-color:#b0c7e9;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap');
+
+
+
+
+/* -------------------overal page-------------------------- */
+
+  
+.overall-page{
+      
+    background-color:var(--main-color);
+    width:100%;
+    min-height:100vh;
+    
+}
+
+/* ------------------------------------nav bar------------------------ */
+
+nav{
+
+    background-color:var(--background-color);
+    padding:10px 0px 10px 10px;
+    height: 100%;
+    width:100%;
+    position: sticky;
+    z-index: 999;
+    top:0;
+    padding:5px 5px;
+    box-shadow: 5px 5px 20px rgba(0,0,0.3)
+    
+}
+.navbar .navbar-brand{
+
+    color: #ca3491;
+    font-family: 'Roboto', sans-serif;
+}
+#navbarNav a{
+
+    color:black;
+}
+#navbarNav a:hover{
+    border-bottom: 2px solid red;
+}
+.tag-h1{
+
+    text-align: center;
+    padding:20px;
+    font-size:60px;
+    font-family:  'Lobster', sans-serif;
+    color:var(--box-color);
+}
+
+/* ..................................overal ......................... */
+
+
+.overal{
+
+     display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+     justify-content: center;
+     align-items: center;
+     row-gap:10px ;
+     column-gap:35px;
+     padding: 10px;
+    
+ }
+    
+  /* --------------------------------main card-----------------------------   */
+.main-card{
+
+    width:300px;
+    height:450px;
+    margin:10px 50px;
+    background-color:var(--border-color) ;
+    box-shadow: 5px 0px 5px var(--border-color),
+           inset 4px 4px 10px var(--border-color);
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content:center ;
+    align-items: center;
+    
+    
+}
+.main-card:hover{
+
+    box-shadow: inset 5px 0px 5px rgb(245, 239, 239),
+           inset -4px -4px 10px white;
+}
+.img-card{
+    
+    width:300px;
+    height:350px;
+    padding-top: 20px;
+}
+
+.card-title{
+
+    text-align: center;
+    padding:6px;
+    color:var(--box-color)
+}
+.button-tag{
+      
+      text-align: center;
+      border: none;
+      margin-left: 80px;
+      width:130px;
+      height:40px;
+      background-color: #ca3491;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+}
+.button-tag:hover{
+
+        background-color: skyblue;
+}
+
+
+/* .................................mobile ......................  */
+
+@media screen and (max-width:316px){
+
+    .main-card{
+         
+        width:100%;
+        /* height: 100%; */
+    }
+    .overall-page{
+      
+        background-color:var(--main-color);
+        width:100%;
+        min-height:100vh;
+            
+    }
+    .tag-h1{
+     
+   font-size:30px;
+
+    }
+
+}
+/* ................................tab.................................. */
+
+
+@media screen and (min-width:420px) and (max-width:1024px){
+
+    .overal{
+
+       display: grid;
+       grid-template-columns: auto auto;
+    }
+
+    .overall-page{
+      
+        background-color:var(--main-color);
+        width:100%;
+        min-height:100vh;
+            
+    }
+
+    .main-card{
+         
+        width:250px;
+        height: 400px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+}
+
+/* ......................nav media......................... */
+
+
+@media  screen and (min-width:100px) and (max-width:1024) {
+
+    .overall-page{
+      
+        background-color:var(--main-color);
+        width:100%;
+        min-height:100vh;
+            
+    }
+    nav{
+
+    background-color:var(--main-color);
+    padding:10px 0px 10px 10px;
+    height: 100%;
+    width:100%;
+    position: sticky;
+    z-index: 999;
+    top:0;
+    padding:5px 5px;
+    box-shadow: 5px 5px 20px rgba(0,0,0.3)
+    
+}
+
+
+    
+}
+
+
+
