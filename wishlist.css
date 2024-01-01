@@ -1,5 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
+}
+.product-card{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    gap:50px;
+}
+.card-design{
+    position: relative;
+    width:270px;
+}
+.card-design img{
+    width:270px;
+    height:270px;
+}
+.heart{
+    position: absolute;
+    font-size:25px;
+    color:rgb(255, 255, 255);
+    top:10px;
+    right:10px;
+}
+.heart:hover{
+    cursor: pointer;
+    color:red;
+}
+.card-design p{
+    font-size:17px;
+    padding:5px 0px;
+    color:rgb(65, 62, 62);
+}
+.card-design del{
+    font-size:14px;
+    color:rgb(65, 62, 62);
+}
+.card-design span{
+    font-size:14px;
+    color:rgb(179, 29, 29);
+}
+.card-design div{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.fa-bag-shopping{
+    font-size:22px;
+    color:#796439;
+    padding:5px 7px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.fa-bag-shopping:hover{
+    color:rgb(255, 255, 255);
+    background-color: #796439;
 }
