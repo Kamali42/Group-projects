@@ -38,7 +38,7 @@ width:90%;
 grid-template-columns: repeat(auto-fit,minmax(300px, 0fr));
 /*background-color:pink;*/
 margin:auto;
-
+cursor:pointer;
 }
 .main1{
 	/*width:90%;*/
@@ -160,4 +160,47 @@ del{
 /* main-main2 start here*/
 .main-main2{
 	margin-top:20px;
+}
+
+/* start for baking contant */
+.backing-dish1{
+	
+	margin:auto;
+	background-color:#fffaf0;
+	padding:50px;
+	padding-left:0px;
+}
+
+
+.back-heading{
+	color:maroon;
+	
+}
+.backing-dished2{
+	width:80%;
+	margin:auto;
+
+	
+
+}
+.para1{
+	margin-top:30px;
+	color:grey;
+}
+
+.bak-p1{
+	font-weight:bold;
+}
+
+.kit-p1{
+	font-weight:bold;
+}
+
+.para2{
+	margin-top:30px;
+	color:grey;
+}
+
+.bak-p2{
+	font-weight:bold;
 }
