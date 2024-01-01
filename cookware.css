@@ -247,7 +247,18 @@ input{
 
 /* ------------------second page---------------------- */
 .category{
-    padding: 0px 1.5rem;
+    padding: 0px .5rem;
+}
+.category .sidetopic{
+    margin-top: 1rem;
+}
+
+.category .sidetopic a{
+    color: var(---subtopiccolor);
+    cursor: pointer;
+}
+.category .sidetopic span{
+    color: var(---headcolor);
 }
 .category .title{
 display: flex;
@@ -274,19 +285,16 @@ font-family: 'Roboto', sans-serif;
 
 .product{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
     gap: 1rem;
+    padding: 0rem 1.5rem;
 }
 
 .product .box{
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    width: 20%;
 }
 
 .product .box img{
@@ -318,4 +326,23 @@ font-family: 'Roboto', sans-serif;
     font-size: .7rem;
     color: var(---headcolor);
     
+}
+
+@media only screen and  (max-width:550px) {
+    .product{
+        flex-direction: column;
+    }
+    .product .box{
+        width: 100%;
+    }
+
+}
+@media only screen and  (max-width:800px) {
+    .product{
+        flex-direction: column;
+    }
+    .product .box{
+        width: 50%;
+    }
+
 }
