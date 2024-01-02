@@ -5,6 +5,10 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
 }
+.slide img{
+    height: 450px;
+    object-fit:fill;
+}
 .product-card{
     display: flex;
     flex-wrap:wrap;
@@ -16,15 +20,19 @@
 .card-design{
     position: relative;
     width:270px;
+    padding: 6px;
+}
+.card-design:hover{
+    box-shadow: 0 7px 9px 0 rgba(0, 0, 0, 0.2), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
 }
 .card-design img{
-    width:270px;
+    width:260px;
     height:270px;
 }
 .heart{
     position: absolute;
     font-size:25px;
-    color:rgb(255, 255, 255);
+    color:rgb(255, 3, 3);
     top:10px;
     right:10px;
 }
