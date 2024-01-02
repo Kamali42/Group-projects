@@ -6,6 +6,9 @@
 }
 
   @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
 
 .container{
     background-color:white;
@@ -64,8 +67,8 @@ font-family: 'Sevillana', cursive;
     gap:70px;
     justify-content: start;
     align-items: start;
-    padding-left:50px;
-    background-color: white;
+    padding:15px;
+    background-color:white;
     height:450px;
     font-family: 'Noto Serif Balinese', serif;
     font-family: 'Sevillana', cursive;
@@ -89,8 +92,8 @@ font-family: 'Sevillana', cursive;
 }
 .inside-bath{
     left:400px;
-    background-color: beige;
-    height:200px;
+    background-color:white;
+    min-height:200px;
     padding:10px;
 }
 .bath:hover+.inside-bath{
@@ -98,8 +101,8 @@ font-family: 'Sevillana', cursive;
 }
 .inside-sale{
     left:450px;
-    background-color: beige;
-    height:200px;
+    background-color:white;
+    min-height:200px;
     padding:10px;
 }
 .sale:hover+.inside-sale{
@@ -107,35 +110,35 @@ display: flex;
 }
 .inside-kitchen{
     left:480px;
-    background-color: beige;
-    height:250px;
+    background-color:white;
+    min-height:250px;
     padding:10px;
 }
 .kitchen:hover+.inside-kitchen{
 display: flex;
 }
 .inside-bags{
-    height:300px;
+    min-height:300px;
 }
 .bags:hover+.inside-bags{
     display: flex;
 }
 .inside-furniture{
-    height:200px;
+    min-height:200px;
     left:760px;
 }
 .furniture:hover+.inside-furniture{
     display: flex;
 }
 .inside-stationery{
-    height:200px;
+    min-height:200px;
     left:900px;
 }
 .stationery:hover+.inside-stationery{
     display: flex;
 }
 .inside-gift{
-    height:200px;
+    min-height:200px;
 }
 .gift:hover+.inside-gift{
     display: flex;
@@ -264,7 +267,142 @@ input{
 .bag:hover{
     color:blue;
 }
-
+.utilities-nestasia{
+    padding:20px;
+    background-color: #fdfdfb;
+}
+.utilities-nestasia h1{
+    font-size:30px;
+    color:#796439;
+    padding:5px;
+    font-family: 'Dancing Script', cursive;
+}
+.utilities-nestasia p{
+    font-size:15px;
+    padding:5px;
+    line-height: 25px;
+    color:rgb(63, 60, 60);
+}
+.utilities-nestasia h2{
+    font-size:23px;
+    color:#796439;
+    padding:5px;
+    font-family: 'Dancing Script', cursive;
+}
+.utilities-nestasia h3{
+    font-size:18px;
+    padding:5px;
+}
+.price-table{
+    padding:30px;
+}
+.price-table h1{
+    font-size:35px;
+    color:#8f794b;
+    padding-bottom:30px;
+}
+th,table,td{
+    border:1px solid gray;
+    border-collapse:collapse;
+    padding:15px;
+    text-align:start;
+    }
+    table{
+        width:50%;
+    }
+th{
+    background-color: #b39d6f;
+    font-size:18px;
+}
+td{
+    background-color: #eee6d5;
+}
+.popular-category{
+    padding:30px;
+}
+.popular-category h1{
+    color:#796439;
+    font-size:20px;
+    padding:10px;
+}
+.popular-category h3{
+    color:rgb(59, 58, 58);
+    padding:10px;
+    font-size:18px;
+}
+.footer{
+    background-color: #f8edca;
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.footer-logo img{
+    width:35px;
+    height:35px;
+    /* object-fit: cover; */
+}
+.footer-content{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: start;
+    gap:40px;
+    padding:30px;
+}
+.stay-in-touch{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    padding:20px;
+}
+.stay-in-touch h1{
+    font-size:20px;
+    padding:20px 0px;
+    color:#796439
+}
+.stay-in-touch p{
+    font-size:16px;
+    color:#72706b
+}
+.stay-in-touch h4{
+    font-size:16px;
+}
+.end-foot{
+   width:150px;
+   padding-top:37px;
+    }
+.end-foot h2{
+font-size:23px;
+color:#8f794b;
+padding-bottom:20px;
+}
+.end-foot h4{
+    font-size:18px;
+    line-height: 30px;
+    color:rgb(63, 61, 61);
+    }
+.accept-app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    padding:20px;
+    gap:10px;
+}
+.accept-app img{
+    width:70px;
+    height:30px;
+    object-fit: cover;
+}
+.accept-app p{
+font-size:20px;
+color:rgb(88, 87, 87);
+}
 
 @media screen and (min-width:300px) and (max-width:1100px) {
     .nav-bar img{
@@ -284,13 +422,39 @@ input{
         left:-100%;
         flex-direction: column;
         justify-content: start;
-        align-items: start;
+        align-items: center;
         position: absolute;
         z-index: 999;
-        top:70px;
+        top:60px;
+        font-size:20px;
+        line-height: 20px;
         padding:20px;
         overflow: hidden;
         background-color:bisque;
+    }
+    .inside-decor{
+        left:10px;
+    }
+    .inside-bath{
+        left:10px;
+    }
+    .inside-sale{
+        left:10px;
+    }
+    .inside-kitchen{
+        left:10px;
+    }
+    .inside-bags{
+        min-height:10px;
+    }
+    .inside-furniture{
+        left:10px;
+    }
+    .inside-stationery{
+        left:10px;
+    }
+    .inside-gift{
+        min-height:10px;
     }
     .nav-bar .fa-bars{
         color:rgb(66, 64, 64);
@@ -299,6 +463,76 @@ input{
         font-size:22px;
         top:20px;
         display: inline;
+    }
+}
+@media screen and (max-width:500px) {
+    .right-nav{
+        gap:10px;
+        font-size:18px;
+    }
+    .kitchenware-box{
+        height:300px;
+    }
+    .kitchenware-box h1{
+        font-size: 17px;
+        padding:8px;
+    }
+        .kitchenware-box button{
+            padding:5px 5px;
+            font-size:10px;
+        }
+        .center-nav{
+            font-size:15px;
+        }
+        table{
+            width:100%;
+        }
+        .logo-1,.logo-2,.logo-3,.logo-4,.logo-5,.logo-6,.logo-7,.logo-8,.logo-9,.logo-10,.logo-11,.logo-12,.logo-13,.logo-14{
+            display:none;
+        }
+}
+@media screen and (min-width:500px) and (max-width:800px) {
+    .right-nav{
+        gap:10px;
+        font-size:25px;
+    }
+    .kitchenware-box{
+        height:300px;
+    }
+    .kitchenware-box h1{
+        font-size: 35px;
+        padding:10px;
+    }
+    .kitchenware-box>h1{
+        padding:30px;
+    }
+        .kitchenware-box button{
+            padding:5px 5px;
+            font-size:13px;
+        }
+        .center-nav{
+            font-size:18px;
+        }
+        table{
+            width:100%;
+        }
+        .logo-1,.logo-2,.logo-3,.logo-4,.logo-5,.logo-6,.logo-7,.logo-8,.logo-9{
+            display:none;
+        }
+}
+@media screen and (min-width:800px) and (max-width:1165px) {
+    .kitchenware-box{
+        height:300px;
+    }
+    .kitchenware-box h1{
+        font-size: 50px;
+        padding:10px;
+    }
+    .kitchenware-box>h1{
+        padding:30px;
+    }
+    table{
+        width:70%;
     }
 }
 
