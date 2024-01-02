@@ -200,7 +200,7 @@ input{
     padding:10px;
 }
 .sale-menu-bar div{
-    width:125px;
+    width:140px;
   height:160px;
 }
 .sale-menu-bar div:hover{
@@ -208,8 +208,8 @@ input{
     background-color: #d6c9af;
 }
 .sale-menu-bar img{
-    width:110px;
-    height:110px;
+    width:120px;
+    height:120px;
     object-fit: cover;
     border-radius: 50%;
 }
