@@ -3,11 +3,6 @@
 padding:0;
 margin:0;
 }
-
-body{
-	/*font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
-}
-
 .items-list{
 border:1px solid black;
 margin-left:40px;
@@ -19,18 +14,37 @@ margin-bottom:40px;
 
 .kitsp1{
 	margin-left:10px;
-	margin-right:10px;
+
 }
 
 .bakesp2{
 	margin-left:10px;
-	margin-right:10px;
+	/*margin-right:10px;*/
 	
 }
 
 .backdishsp3{
 	color:gold;
 }
+
+.lunch-box1{
+	width:95%;
+	margin:auto;
+	padding:px;
+	border:1px solid green;
+	margin-bottom:50px;
+}
+
+.lunch-box1 h3{
+	color:gold;
+	
+}
+
+.lunch-box1 p{
+	padding-top:10px;
+}
+
+/* card design start here */
 .main-main{
 width:90%;
 	margin-top:60px;
@@ -38,7 +52,7 @@ width:90%;
 grid-template-columns: repeat(auto-fit,minmax(300px, 0fr));
 /*background-color:pink;*/
 margin:auto;
-
+cursor:pointer;
 }
 .main1{
 	/*width:90%;*/
@@ -157,6 +171,9 @@ del{
 }
 
 /* main-main end here */
+
+
+
 /* main-main2 start here*/
 .main-main2{
 	margin-top:20px;
