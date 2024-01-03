@@ -217,6 +217,10 @@ input{
     object-fit: cover;
     border-radius: 50%;
 }
+.sale-menu-bar a{
+    text-decoration: none;
+    color:#796439;
+}
 .heart{
     position: absolute;
     font-size:25px;

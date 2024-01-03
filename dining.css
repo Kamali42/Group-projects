@@ -416,6 +416,7 @@ color:rgb(88, 87, 87);
  
     .circle{
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         gap: 30px;
