@@ -146,6 +146,43 @@
     font-weight: bold;
     background-color: white;
 }
+.review{
+    padding: 10px;
+}
+.review h1{
+    padding: 20px;
+}
+.review article{
+    /* padding: -10px; */
+}
+.customer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px;
+    gap: 200px;
+}
+figcaption{
+    line-height: 50px;
+}
+.reviewImg{
+    height: 50px;
+    width: 50px;
+}
+.checked {
+    color: orange;
+    padding: 10px 0;
+  }
+  .checked:first-child{
+    margin-left: 50px;
+  }
+  legend{
+    padding: 15px;
+    line-height: 34px;
+  }
+  legend h4{
+    padding: 10px 0;
+  } 
 @media screen and (min-width:300px) and (max-width:500px) {
  .buy {
         flex-direction: column-reverse;
