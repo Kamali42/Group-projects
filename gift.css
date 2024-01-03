@@ -71,7 +71,7 @@ input{
     position: absolute;
     right: 20px;
     top:20px;
-    display: none;
+    display:none;
 }
 .inside-decor{
     left:350px;
