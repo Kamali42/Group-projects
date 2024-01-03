@@ -24,6 +24,9 @@ input{
     top:20px;
     display: none;
 }
+.nav-bar .fa-bars{
+    display: none;
+}
 .nav-bar img{
     width:200px;
     height:60px;

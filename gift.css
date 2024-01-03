@@ -17,6 +17,9 @@
     z-index:9999;
     top:0;
 }
+.nav-bar .fa-bars{
+    display: none;
+}
 .nav-bar img{
     width:200px;
     height:60px;

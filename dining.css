@@ -22,6 +22,9 @@
     height:60px;
     object-fit: cover;
 }
+.nav-bar .fa-bars{
+    display: none;
+}
 input{
     z-index: 8;
     position: absolute;
