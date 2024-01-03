@@ -22,6 +22,9 @@
     height:60px;
     object-fit: cover;
 }
+.nav-bar .fa-bars{
+    display: none;
+}
 input{
     z-index: 8;
     position: absolute;
@@ -413,6 +416,7 @@ color:rgb(88, 87, 87);
  
     .circle{
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         gap: 30px;

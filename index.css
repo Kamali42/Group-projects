@@ -149,7 +149,7 @@ display: flex;
 }
 input:checked~ .center-nav{
     left:0;
-    transition: 0.8s;
+    transition: 1s;
     
 }
 .nav-bar .fa-bars{
@@ -216,6 +216,10 @@ input{
     height:120px;
     object-fit: cover;
     border-radius: 50%;
+}
+.sale-menu-bar a{
+    text-decoration: none;
+    color:#796439;
 }
 .heart{
     position: absolute;

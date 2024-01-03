@@ -16,6 +16,10 @@
     font-family: 'Noto Serif Balinese', serif;
 font-family: 'Sevillana', cursive;
 }
+.nav-bar a{
+    text-decoration: none;
+    color:#796439;
+}
 .nav-bar{
     display:flex;
     justify-content: space-around;
@@ -264,7 +268,7 @@ input{
     font-size:16px;
 }
 .end-foot{
-   width:150px;
+   width:149px;
    padding-top:37px;
     }
 .end-foot h2{
