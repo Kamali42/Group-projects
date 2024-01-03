@@ -3,7 +3,7 @@ padding:0;
 margin:0;
 }
 .items-list{
-margin-left:40px;
+/* margin-left:40px; */
 width:40%;
 margin-top:20px;
 font-size:17px;
@@ -11,12 +11,12 @@ margin-bottom:40px;
 }
 
 .kitsp1{
-	margin-left:10px;
+	/* margin-left:10px; */
 
 }
 
 .bakesp2{
-	margin-left:10px;
+	/* margin-left:10px; */
 	
 }
 
@@ -41,10 +41,12 @@ margin-bottom:40px;
 
 /* card design start here */
 .main-main{
-	width:90%;
+	width:100%;
 	margin-top:60px;
 	display:grid;
     grid-template-columns: repeat(auto-fit,minmax(300px, 0fr));
+    justify-content: center;
+    align-items: center;
     margin:auto;
     cursor:pointer;
 }
@@ -369,7 +371,7 @@ display: flex;
     display: flex;
 }
 input:checked~ .center-nav{
-    left:0;.nav-bar{
+    left:0;
     display:flex;
     justify-content: space-around;
     align-items: center;
