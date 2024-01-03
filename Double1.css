@@ -152,9 +152,6 @@
 .review h1{
     padding: 20px;
 }
-.review article{
-    /* padding: -10px; */
-}
 .customer{
     display: flex;
     flex-wrap: wrap;
@@ -210,4 +207,9 @@ figcaption{
     .content button{
         margin-bottom: 10px;
     }   
+}
+@media screen and (max-width:680px){
+    .customer{
+        gap:10px;
+    }
 }
