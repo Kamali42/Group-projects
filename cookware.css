@@ -284,23 +284,37 @@ font-family: 'Roboto', sans-serif;
 }
 
 .product{
+    width: 100%;
+    gap: 4rem;
+    padding: 0rem 1.5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
-    gap: 1rem;
-    padding: 0rem 1.5rem;
+
+    
 }
 
 .product .box{
     width: 20%;
+    height: 400px;
+    cursor: pointer;
 }
-
+.product .box .img {
+    position: relative;
+}
 .product .box img{
-    width: 100%;
+    width:270px;
+    height:270px;
+    object-fit: cover;
 }
-
+.product .box .img i{
+    position: absolute;
+    font-size:1.5rem;
+    color: rgb(202, 50, 30);
+    top:1rem;
+    right:.1rem;
+}
 
 
 .product .box .content p{
@@ -328,21 +342,47 @@ font-family: 'Roboto', sans-serif;
     
 }
 
-@media only screen and  (max-width:550px) {
-    .product{
-        flex-direction: column;
-    }
-    .product .box{
-        width: 100%;
-    }
-
+/*---------------------third page------------------ */
+.container-3 {
+    padding: 2rem 1.5rem;
 }
-@media only screen and  (max-width:800px) {
-    .product{
-        flex-direction: column;
-    }
-    .product .box{
-        width: 50%;
-    }
+.content .heading{
+    color: var(---headcolor);
+}
+.content .subtopic{
+    color: var(---boldcolor);
+}
 
+.content h1{
+    color: var(---headcolor);
+}
+.content p{
+    color: var(---boldcolor);
+}
+.subhead h1{
+    color: var(---headcolor);
+}
+.list ul li{
+    color: var(---headcolor);
+}
+.list ul p{
+    color: var(---boldcolor);
+}
+
+/*--------------------------pricing table------------- */
+.table{
+    padding: 2rem 1.5rem;
+}
+.table h1{
+    color: var(---headcolor);
+    margin-bottom: 1rem;
+}
+.table table, tr, td, th{
+   border: 2px solid var(---subtopiccolor);
+   border-collapse: collapse;
+   padding: 1rem;
+   width: 100%;
+}
+.table table tr th{
+    background-color: var(---headcolor);
 }
