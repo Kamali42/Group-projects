@@ -106,6 +106,9 @@
     border:2px solid #c0a874;
     font-size: 25px;
 }
+.content h2{
+    color: #b39d6f;
+}
 .content h3 select option{
     color: navy;
 }
