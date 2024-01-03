@@ -280,6 +280,7 @@ input:checked~ .center-nav{
     align-items: center;
     gap: 30px;
     padding-top: 50px;
+    flex-wrap: wrap;
 
 }
 
